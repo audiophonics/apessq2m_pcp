@@ -4,6 +4,7 @@
 This is a tiny piCorePlayer extension that adds a configuration page in the WebGUI to expose additionnal hardware DAC functions (namely to allow toggling between the I2S and SPDIF inputs).
 It does not override any pcp file and only executes a couple alsa functions so it should be safe to run on any hardware using Audiophonics I-Sabre Q2M Driver with SPDIF input.
 
+
 ## How to install 
 
 Connect to piCorePlayer with SSH and execute the following : 
@@ -26,3 +27,4 @@ rm -rf /tmp/install_apessq2m
 ## How to use
 Once installed, a new configuration page becomes available in http://pcp/cgi-bin/apessq2m.cgi (replace ```pcp``` with your local IP address if your client device does not support local DNS resolution)
 
+If you did not configure the DAC input in http://pcp/cgi-bin/squeezelite.cgi so pcp will use the **Audiophonics ISabre Q2M**, you will get the following error : ```[ ERROR ] I-Sabre Q2M DAC not detected...```. Do this configuration, reboot and it should be working as expected.
