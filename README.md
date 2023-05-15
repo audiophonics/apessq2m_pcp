@@ -1,10 +1,13 @@
 # apessq2m_pcp
-(Experimental) expose more ES90X8 DAC function in a friendly way within picorePlayer webgui
+(Experimental) expose more ES90X8 DAC function in a friendly way within piCorePlayer webgui
 
-This is a tiny picorePlayer extension that adds a configuration page in the WebGUI to expose additionnal hardware DAC functions (namely to allow toggling between the I2S and SPDIF inputs).
+This is a tiny piCorePlayer extension that adds a configuration page in the WebGUI to expose additionnal hardware DAC functions (namely to allow toggling between the I2S and SPDIF inputs).
 It does not override any pcp file and only executes a couple alsa functions so it should be safe to run on any hardware using Audiophonics I-Sabre Q2M Driver with SPDIF input.
 
 ## How to install 
+
+Connect to piCorePlayer with SSH and execute the following : 
+
 ```shell
 mkdir -p /tmp/install_apessq2m
 cd /tmp/install_apessq2m
