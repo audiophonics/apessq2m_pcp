@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# Version: 6.0.0 2019-07-18
-
 . pcp-functions
 . pcp-soundcard-functions
 
