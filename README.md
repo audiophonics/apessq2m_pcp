@@ -29,7 +29,7 @@ rm -rf /tmp/install_apessq2m
 ## How to use
 Once installed, a new configuration page becomes available in http://pcp/cgi-bin/apessq2m.cgi (replace ```pcp``` with your local IP address if your client device does not support local DNS resolution)
 
-If you did not configure the DAC input in http://pcp/cgi-bin/squeezelite.cgi so pcp will use the **Audiophonics ISabre Q2M**, you will get the following error : ```[ ERROR ] I-Sabre Q2M DAC not detected...```. Do this configuration, reboot and it should be working as expected.
+If you did not configure the DAC output in http://pcp/cgi-bin/squeezelite.cgi so pcp will use the **Audiophonics ISabre Q2M**, you will get the following error : ```[ ERROR ] I-Sabre Q2M DAC not detected...```. Do this configuration, reboot and it should be working as expected.
 
 ## Tested on : 
 picorePlayer 8.2.0
